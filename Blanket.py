@@ -5,10 +5,11 @@ import io
 findvar = re.compile(r'(?<=\$)(.*?)(?=[\s,),\.,=,\",\;])') ## lockback search for $ look forward search for end char or space
 vararray = []
 randomvararray=[]
-f = open("scripts/shell.ps1", "rt")
+f = open("scripts/newshell1.txt", "rt")
 lines = f.readlines()
 f.close()
-f = open("scripts/shell.ps1", "rt")
+f = open("scripts/newshell1.txt", "rt")
+
 w = open("scripts/newshell.txt", "wt")
 script = f.read()
 f.close()
@@ -41,6 +42,7 @@ def randomvar(length): ##create a random variable of len length
 for line in lines: ## itterate line by line
     lines = findvar.finditer(line) ##match variables
     for var in lines: ## loop over variables
+        print(var)
         var = var.group(0) ## pass index of the group, strips what we dont want.
         if var not in vararray: ## don't populate array with same value twice
             vararray.append('$'+var) ## add found var to vararray
