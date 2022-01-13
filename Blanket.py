@@ -2,6 +2,7 @@ import re
 import string
 import random
 import io
+
 ip="192.168.0.30"
 port="4444"
 findvar = re.compile(
