@@ -1,10 +1,35 @@
+import argparse
 import re
 import string
 import random
 import io
 
-ip="192.168.0.30"
-port="4444"
+parser = argparse.ArgumentParser(description='Description of your program')
+parser.add_argument('-i','--IP', help='Enter IP for Remote Host', required=True)
+parser.add_argument('-p','--Port', help='Enter Port for Remote Host', required=True)
+parser.add_argument('-o','--Outfile', help='Output File Name', required=False)
+parser.add_argument('-s','--Script', help='Script To Encode', required=False)
+args = vars(parser.parse_args())
+
+ip= args['IP']
+port=args['Port']
+
+if args['Script'] is not None:
+    print("Script has beeen provided")
+    scriptloc= args['Script']
+else:
+    print("Script hasn't been provided")
+    scriptloc= "/scripts/shell.ps1"
+if args['Outfile'] is not None:
+    print("OutPutFile is True")
+    outfile = args['Outfile']
+else:
+    print("OutPutFile is False")
+    outfile = "shell.ps1"
+
+
+print(args)
+
 findvar = re.compile(
     r'(?<=\$)(.*?)(?=[\s,),\.,=,\",\;])')  ## lockback search for $ look forward search for end char or space
 vararray = []
@@ -27,12 +52,12 @@ list = [
     "TExT.AscIIENcoDINg",
     "io.strEamWritEr"
 ]
-f = open("scripts/shell.ps1", "rt")
+f = open(scriptloc, "rt")
 lines = f.readlines()
 f.close()
-f = open("scripts/shell.ps1", "rt")
+f = open(scriptloc, "rt")
 
-w = open("scripts/newshell1.txt", "wt")
+w = open("encoded/"+outfile+".ps1", "wt")
 
 f.close()
 
