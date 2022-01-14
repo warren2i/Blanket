@@ -16,7 +16,8 @@ If you are worried about being found perhaps try taking cover under a blanket.
 
 Pure Python PowerShell Obfuscator 
 ****
-##Usage
+
+## Usage
 
 `git clone https://github.com/warren2i/Blanket`
 
@@ -27,7 +28,8 @@ Pure Python PowerShell Obfuscator
 `usage: Blanket.py [-h] -i IP -p PORT [-o OUTFILE] [-s SCRIPT] [-v VARSIZE]
 `
 ****
-##FROM THIS
+
+## FROM THIS
 
 ![alt text](https://github.com/warren2i/Blanket/blob/master/screenshots/virustotalflag.png?raw=true)
 ```
@@ -41,7 +43,7 @@ Pure Python PowerShell Obfuscator
 
 ```
 
-##TO THIS
+## TO THIS
 
 ![alt text](https://github.com/warren2i/Blanket/blob/master/screenshots/virustotalencoded.png?raw=true)
 ```
@@ -60,24 +62,24 @@ $CABnIxyBoA = new-object $GUxCXYklTR$jmgKZRfvsC$dbYEHnzBop$PCZxvNmpro$esduLAahPr
 <# Principal Vagina  I done been notifying you  Have you not been getting the messages I ve been leaving with Morty s grandfather   #>
 ```
 
-##How Does Blanket Work?
+## How Does Blanket Work?
 
-####randomvar(length)
+#### randomvar(length)
 
 Creates a random string of length (length), this is used to replace variables
 
-####addcomments()
+#### addcomments()
 
 Insert a comment on each line, comments are generated from text file defined with argument -c --comments
 
-####breakdatatype(string, rando)
+#### breakdatatype(string, rando)
 
 Locates strings found by av and breaks into random multi line variables
 
-#####Before Blanket
+##### Before Blanket
 ```
 $pinfo = New-Object System.Diagnostics.ProcessStartInfo
 ```
-#####After Blanket
+##### After Blanket
 ```
 $WjUHPtSUMs = New-Object $FxWBgCj$qzCeaqa$qjGBOBx$KRKWjyD$CRLlqAV$PspQekI$XkPguzs$FcQZxty$LXMGRypStartInfo 
