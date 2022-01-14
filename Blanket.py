@@ -22,16 +22,18 @@ port=args['Port']
 def logo():
     logo = """
 
-    ▄▄▄▄    ██▓    ▄▄▄       ███▄    █  ██ ▄█▀▓█████▄▄▄█████▓
-    ▓█████▄ ▓██▒   ▒████▄     ██ ▀█   █  ██▄█▒ ▓█   ▀▓  ██▒ ▓▒
-    ▒██▒ ▄██▒██░   ▒██  ▀█▄  ▓██  ▀█ ██▒▓███▄░ ▒███  ▒ ▓██░ ▒░
-    ▒██░█▀  ▒██░   ░██▄▄▄▄██ ▓██▒  ▐▌██▒▓██ █▄ ▒▓█  ▄░ ▓██▓ ░
-    ░▓█  ▀█▓░██████▒▓█   ▓██▒▒██░   ▓██░▒██▒ █▄░▒████▒ ▒██▒ ░
-    ░▒▓███▀▒░ ▒░▓  ░▒▒   ▓▒█░░ ▒░   ▒ ▒ ▒ ▒▒ ▓▒░░ ▒░ ░ ▒ ░░
-    ▒░▒   ░ ░ ░ ▒  ░ ▒   ▒▒ ░░ ░░   ░ ▒░░ ░▒ ▒░ ░ ░  ░   ░
-    ░    ░   ░ ░    ░   ▒      ░   ░ ░ ░ ░░ ░    ░    ░
-    ░          ░  ░     ░  ░         ░ ░  ░      ░  ░
-    ░
+
+▀█████████▄   ▄█          ▄████████ ███▄▄▄▄      ▄█   ▄█▄    ▄████████     ███     
+  ███    ███ ███         ███    ███ ███▀▀▀██▄   ███ ▄███▀   ███    ███ ▀█████████▄ 
+  ███    ███ ███         ███    ███ ███   ███   ███▐██▀     ███    █▀     ▀███▀▀██ 
+ ▄███▄▄▄██▀  ███         ███    ███ ███   ███  ▄█████▀     ▄███▄▄▄         ███   ▀ 
+▀▀███▀▀▀██▄  ███       ▀███████████ ███   ███ ▀▀█████▄    ▀▀███▀▀▀         ███     
+  ███    ██▄ ███         ███    ███ ███   ███   ███▐██▄     ███    █▄      ███     
+  ███    ███ ███▌    ▄   ███    ███ ███   ███   ███ ▀███▄   ███    ███     ███     
+▄█████████▀  █████▄▄██   ███    █▀   ▀█   █▀    ███   ▀█▀   ██████████    ▄████▀   
+             ▀                                  ▀                                  
+
+
 If you are worried about being found perhaps try taking cover under a blanket.
                   https://github.com/warren2i/Blanket
                             For Help Use -h
@@ -46,11 +48,11 @@ def printinfo():
 if args['Script'] is not None:
      scriptloc= args['Script']
 else:
-     scriptloc= "/scripts/shell.ps1"
+     scriptloc= "scripts/shell.ps1"
 if args['Outfile'] is not None:
      outfile = args['Outfile']
 else:
-     outfile = "shell.ps1"
+     outfile = "scripts/shell.ps1"
 
 if args['varsize'] is not None:
      varsize = args['varsize']

